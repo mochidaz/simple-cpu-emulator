@@ -5,5 +5,5 @@ use cpu::CPU;
 
 fn main() {
     let mut cpu = CPU::new();
-    cpu.run("src/instruction-set.txt");
+    cpu.run("instruction-set.txt");
 }
